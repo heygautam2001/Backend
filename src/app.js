@@ -22,6 +22,7 @@ app.use(
     extended: true,
     limit: "16kb",
   }))
+  
 app.use(express.static("public"));
 app.use(cookieParser());
 
